@@ -18,6 +18,6 @@ This project aims to develop a program capable of detecting plagiarism between m
 To compile and execute the project, use the following commands:
 
 ```bash
- gcc -Wall projetc.c -o « nom_du_fichier_executable ».out -lm
-./ « nom_du_fichier_executable ».out « fichier_1 » « fichier_2 » avec fichier_1 et fichier_2 les deux fichier à tester.
+ gcc -Wall projetc.c -o «  name_of_executable_file  ».out -lm
+./ « name_of_executable_file ».out « file_1 » « file_1 » with file_1 and file_2 the two files to test.
 
