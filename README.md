@@ -20,4 +20,41 @@ To compile and execute the project, use the following commands:
 ```bash
  gcc -Wall projetc.c -o «  name_of_executable_file  ».out -lm
 ./ « name_of_executable_file ».out « file_1 » « file_1 » with file_1 and file_2 the two files to test.
+```
+
+## Project Structure
+
+├── projetc.c               # Main program source code
+├── dice.pgm                # Grayscale image representing segment similarities (Dice coefficient)
+├── coupling.pgm            # Grayscale image for segment coupling visualization
+├── filtering.pgm           # Post-filtering visualization
+├── README.md               # Project documentation
+├── dev.pdf                 # Development report: design choices, algorithms, complexity, challenges
+└──exp.pdf                  # Experiment report: tests and results
+
+## Features
+Pre-processing:
+Removes comments, string literals, spaces, and replaces identifiers with placeholder characters to neutralize variable renaming.
+
+Segmentation:
+Splits the code into segments (lines) for granular comparison.
+
+Similarity Calculation:
+Computes segment similarities using Dice’s coefficient (bi-grams comparison).
+
+Greedy Coupling:
+Pairs segments to minimize total distance.
+
+Post-Filtering:
+Eliminates isolated matches to focus on significant, contiguous similarities.
+
+Visualization:
+Generates .pgm images for visual analysis of detected similarities.
+
+## Output
+Final plagiarism score: a number between 0 and 1 (two decimal places).
+
+Visual files (.pgm) representing segment similarities, coupling, and filtering.
+
+
 
