@@ -24,6 +24,7 @@ To compile and execute the project, use the following commands:
 
 ## Project Structure
 ```bash
+.
 ├── projetc.c               # Main program source code
 ├── dice.pgm                # Grayscale image representing segment similarities (Dice coefficient)
 ├── coupling.pgm            # Grayscale image for segment coupling visualization
