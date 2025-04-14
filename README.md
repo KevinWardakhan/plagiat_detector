@@ -30,7 +30,7 @@ To compile and execute the project, use the following commands:
 ├── coupling.pgm            # Grayscale image for segment coupling visualization
 ├── filtering.pgm           # Post-filtering visualization
 ├── README.md               # Project documentation
-├── dev.pdf                 # Development report: design choices, algorithms, complexity, challenges
+├── report.pdf                 # Development report: design choices, algorithms, complexity, challenges
 └──exp.pdf                  # Experiment report: tests and results
 ```
 ## Features
